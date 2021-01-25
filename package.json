@@ -4,7 +4,8 @@
   "private": true,
   "dependencies": {
     "dotenv": "^8.2.0",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "request": "^2.88.2"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -12,5 +13,17 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.6"
-  }
+  },
+  "description": "This web app uses the spotify api to display a users top artists, tracks, and new releases.",
+  "main": "main.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/srageh/ezn-music-backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/srageh/ezn-music-backend/issues"
+  },
+  "homepage": "https://github.com/srageh/ezn-music-backend#readme"
 }
